@@ -34,16 +34,16 @@ LOCALIZATION = {
         'dialog_load_title': 'Load Project',
         'dialog_load_prompt': 'File name:',
         
-        'msg_saved': '✓ Saved: ',
-        'msg_loaded': '✓ Loaded: ',
-        'msg_error': '✗ Error: ',
-        'msg_error_save': '✗ Save error: ',
-        'msg_error_load': '✗ Load error: ',
-        'msg_file_not_found': '✗ File not found: ',
-        'msg_initialized': '✓ DrawingCanvas initialized',
-        'msg_tool_changed': '→ Tool: ',
+        'msg_saved': 'Saved: ',
+        'msg_loaded': 'Loaded: ',
+        'msg_error': 'Error: ',
+        'msg_error_save': 'Save error: ',
+        'msg_error_load': 'Load error: ',
+        'msg_file_not_found': 'File not found: ',
+        'msg_initialized': 'DrawingCanvas initialized',
+        'msg_tool_changed': 'Tool: ',
         'msg_click': 'Click: ',
-        'msg_function_error': '✗ Error adding function \'{}\': {}',
+        'msg_function_error': 'Error adding function \'{}\': {}',
         
         'coord_x': 'x: ',
         'coord_y': ', y: ',
@@ -79,16 +79,16 @@ LOCALIZATION = {
         'dialog_load_title': 'Загрузить проект',
         'dialog_load_prompt': 'Имя файла:',
         
-        'msg_saved': '✓ Сохранено: ',
-        'msg_loaded': '✓ Загружено: ',
-        'msg_error': '✗ Ошибка: ',
-        'msg_error_save': '✗ Ошибка сохранения: ',
-        'msg_error_load': '✗ Ошибка загрузки: ',
-        'msg_file_not_found': '✗ Файл не найден: ',
-        'msg_initialized': '✓ DrawingCanvas инициализирован',
-        'msg_tool_changed': '→ Инструмент: ',
+        'msg_saved': 'Сохранено: ',
+        'msg_loaded': 'Загружено: ',
+        'msg_error': 'Ошибка: ',
+        'msg_error_save': 'Ошибка сохранения: ',
+        'msg_error_load': 'Ошибка загрузки: ',
+        'msg_file_not_found': 'Файл не найден: ',
+        'msg_initialized': 'DrawingCanvas инициализирован',
+        'msg_tool_changed': 'Инструмент: ',
         'msg_click': 'Клик: ',
-        'msg_function_error': '✗ Ошибка при добавлении функции \'{}\': {}',
+        'msg_function_error': 'Ошибка при добавлении функции \'{}\': {}',
         
         'coord_x': 'x: ',
         'coord_y': ', y: ',
@@ -116,7 +116,7 @@ class Localization:
         return False
     
     def get_current_language(self) -> str:
-        """По��учить текущий язык"""
+        """Получить текущий язык"""
         return self.current_language
     
     def get_available_languages(self) -> list:
