@@ -1113,7 +1113,7 @@ class MainWindow(QMainWindow):
             self.toolbar.update_language()
             print(f"DEBUG: toolbar.update_language() completed")
             
-            print(f"✓ Language changed to: {language}")
+            print(f"Language changed to: {language}")
 
     def toggle_grid(self, show):
         self.canvas.show_grid = show
@@ -1346,7 +1346,7 @@ class MainWindow(QMainWindow):
                 self.toolbar.deleteLater()
             event.accept()
         except Exception as e:
-            print(f"✗ Error closing: {e}")
+            print(f"Error closing: {e}")
 
 
 if __name__ == "__main__":
@@ -1361,4 +1361,5 @@ if __name__ == "__main__":
     except SystemExit:
         pass
     except Exception as e:
-        print(f"✗ Error: {e}")
+
+        print(f"Error: {e}")
