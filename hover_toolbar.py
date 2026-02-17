@@ -167,7 +167,7 @@ class FunctionListWidget(QWidget):
         })
 
     def _create_function_item(self, func_text, index, color):
-        """Создать виджет для одного элемента ��писка"""
+        """Создать виджет для одного элемента списка"""
         widget = QWidget()
         layout = QHBoxLayout(widget)
         layout.setContentsMargins(5, 2, 5, 2)
@@ -506,4 +506,5 @@ class HoverToolbar(QWidget):
                     btn.clicked.disconnect()
         except:
             pass
+
         event.accept()
